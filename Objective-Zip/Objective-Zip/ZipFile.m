@@ -1,9 +1,9 @@
 //
 //  ZipFile.m
-//  Objective-Zip v. 0.7
+//  Objective-Zip v. 0.7.1
 //
 //  Created by Gianluca Bertani on 25/12/09.
-//  Copyright 2009 Flying Dolphin Studio. All rights reserved.
+//  Copyright 2009-10 Flying Dolphin Studio. All rights reserved.
 //
 //  Redistribution and use in source and binary forms, with or without 
 //  modification, are permitted provided that the following conditions 
@@ -153,7 +153,7 @@
 								  (compressionLevel != ZipCompressionLevelNone) ? Z_DEFLATED : 0,
 								  compressionLevel, 0,
 								  -MAX_WBITS, DEF_MEM_LEVEL, Z_DEFAULT_STRATEGY,
-								  [fileNameInZip cStringUsingEncoding:NSUTF8StringEncoding], crc32);
+								  [password cStringUsingEncoding:NSUTF8StringEncoding], crc32);
 	if (err != ZIP_OK) {
 		NSString *reason= [NSString stringWithFormat:@"Error in opening '%@' in zipfile", fileNameInZip];
 		@throw [[[ZipException alloc] initWithError:err reason:reason] autorelease];
