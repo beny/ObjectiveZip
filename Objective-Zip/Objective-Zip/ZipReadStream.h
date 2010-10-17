@@ -1,6 +1,6 @@
 //
 //  ZipReadStream.h
-//  Objective-Zip v. 0.7.1
+//  Objective-Zip v. 0.7.2
 //
 //  Created by Gianluca Bertani on 28/12/09.
 //  Copyright 2009-10 Flying Dolphin Studio. All rights reserved.

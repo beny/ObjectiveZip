@@ -79,7 +79,7 @@
 
 		[self performSelectorOnMainThread:@selector(log:) withObject:@"Adding first file..." waitUntilDone:YES];
 		
-		ZipWriteStream *stream1= [zipFile writeFileInZipWithName:@"abc.txt" compressionLevel:ZipCompressionLevelBest];
+		ZipWriteStream *stream1= [zipFile writeFileInZipWithName:@"abc.txt" fileDate:[NSDate dateWithTimeIntervalSinceNow:-86400.0] compressionLevel:ZipCompressionLevelBest];
 
 		[self performSelectorOnMainThread:@selector(log:) withObject:@"Writing to first file's stream..." waitUntilDone:YES];
 
@@ -192,7 +192,7 @@
 }
 
 - (void) log:(NSString *)text {
-	NSLog(text);
+	NSLog(@"%@", text);
 	
 	_textView.text= [_textView.text stringByAppendingString:text];
 	_textView.text= [_textView.text stringByAppendingString:@"\n"];
