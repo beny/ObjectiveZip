@@ -106,6 +106,7 @@
 		[self performSelectorOnMainThread:@selector(log:) withObject:@"Closing zip file..." waitUntilDone:YES];
 		
 		[zipFile close];
+		[zipFile release];
 		
 		[self performSelectorOnMainThread:@selector(log:) withObject:@"Opening zip file for reading..." waitUntilDone:YES];
 		
@@ -174,6 +175,7 @@
 		[self performSelectorOnMainThread:@selector(log:) withObject:@"Closing zip file..." waitUntilDone:YES];
 		
 		[unzipFile close];
+		[unzipFile release];
 		
 		[self performSelectorOnMainThread:@selector(log:) withObject:@"Test terminated succesfully" waitUntilDone:YES];
 		
