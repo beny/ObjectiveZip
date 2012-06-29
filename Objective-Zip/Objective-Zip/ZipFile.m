@@ -1,6 +1,6 @@
 //
 //  ZipFile.m
-//  Objective-Zip v. 0.7.2
+//  Objective-Zip v. 0.8
 //
 //  Created by Gianluca Bertani on 25/12/09.
 //  Copyright 2009-10 Flying Dolphin Studio. All rights reserved.
@@ -195,6 +195,10 @@
 	}
 	
 	return [[[ZipWriteStream alloc] initWithZipFileStruct:_zipFile fileNameInZip:fileNameInZip] autorelease];
+}
+
+- (NSString*) fileName {
+	return _fileName;
 }
 
 - (NSUInteger) numFilesInZip {

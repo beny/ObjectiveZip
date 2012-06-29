@@ -272,12 +272,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>080E96DDFE201D6D7F000001</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>8</integer>
+									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -301,7 +304,7 @@
 							<real>238</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>170 161 1556 953 0 0 1920 1178 </string>
+						<string>469 311 1556 953 0 0 2560 1418 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,7 +332,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8CD112BC129FB8810047C173</string>
+										<string>8CE3D4D512D4B1EC00E08608</string>
 										<key>history</key>
 										<array>
 											<string>8CBE442A10E97BE300AC9ED3</string>
@@ -360,7 +363,7 @@
 											<string>8C7C38A7126DA769001F45ED</string>
 											<string>8C4787DF128E08A500A794B6</string>
 											<string>8C478DCE1295085100A794B6</string>
-											<string>8CD112B5129FB87D0047C173</string>
+											<string>8CE3D4D412D4B1EC00E08608</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -374,18 +377,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1274, 629}}</string>
+								<string>{{0, 0}, {1274, 907}}</string>
 								<key>RubberWindowFrame</key>
-								<string>170 161 1556 953 0 0 1920 1178 </string>
+								<string>469 311 1556 953 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>629pt</string>
+							<string>907pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>278pt</string>
+							<string>0pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -400,8 +403,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1274, 251}}</string>
-										<key>RubberWindowFrame</key>
-										<string>170 161 1556 953 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -476,7 +477,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1274, 245}}</string>
+										<string>{{10, 27}, {1274, -27}}</string>
+										<key>RubberWindowFrame</key>
+										<string>469 311 1556 953 0 0 2560 1418 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -504,11 +507,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8CD112A6129FB8100047C173</string>
+				<string>8CE3D4B812D4B08B00E08608</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>8CD112A7129FB8100047C173</string>
+				<string>8CE3D4B912D4B08B00E08608</string>
 				<string>8C6D34F710E56A1B00B63EFA</string>
-				<string>8CD112A8129FB8100047C173</string>
+				<string>8CE3D4BA12D4B08B00E08608</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -655,13 +658,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>8CD112A9129FB8100047C173</string>
+				<string>8CE3D4BB12D4B08B00E08608</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>8CD112AA129FB8100047C173</string>
-				<string>8CD112AB129FB8100047C173</string>
-				<string>8CD112AC129FB8100047C173</string>
-				<string>8CD112AD129FB8100047C173</string>
+				<string>8CE3D4BC12D4B08B00E08608</string>
+				<string>8CE3D4BD12D4B08B00E08608</string>
+				<string>8CE3D4BE12D4B08B00E08608</string>
+				<string>8CE3D4BF12D4B08B00E08608</string>
 				<string>8C6D34F710E56A1B00B63EFA</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
@@ -696,12 +699,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>8CD112AE129FB8100047C173</string>
-		<string>8CD112B0129FB8100047C173</string>
+		<string>8CE3D4CC12D4B16200E08608</string>
+		<string>8CE3D4C112D4B08B00E08608</string>
 		<string>/Users/gbertani/Projects/FlyingDolphinStudio/Objective-Zip/Objective-Zip @ Google Code/Objective-Zip/Objective-Zip.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>170 161 1556 953 0 0 1920 1178 </string>
+	<string>469 311 1556 953 0 0 2560 1418 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

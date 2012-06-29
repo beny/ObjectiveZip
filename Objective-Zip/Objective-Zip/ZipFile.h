@@ -1,6 +1,6 @@
 //
 //  ZipFile.h
-//  Objective-Zip v. 0.7.2
+//  Objective-Zip v.0.8
 //
 //  Created by Gianluca Bertani on 25/12/09.
 //  Copyright 2009-10 Flying Dolphin Studio. All rights reserved.
@@ -69,6 +69,7 @@ typedef enum {
 - (ZipWriteStream *) writeFileInZipWithName:(NSString *)fileNameInZip fileDate:(NSDate *)fileDate compressionLevel:(ZipCompressionLevel)compressionLevel;
 - (ZipWriteStream *) writeFileInZipWithName:(NSString *)fileNameInZip fileDate:(NSDate *)fileDate compressionLevel:(ZipCompressionLevel)compressionLevel password:(NSString *)password crc32:(NSUInteger)crc32;
 
+- (NSString*) fileName;
 - (NSUInteger) numFilesInZip;
 - (NSArray *) listFileInZipInfos;
 
